@@ -9,7 +9,7 @@ let mySize : Size = Size.Medium;
 console.log(mySize);
 
 //Function
-function calTax(income:number){
+function calTax(){
     return 0;
 }
 
