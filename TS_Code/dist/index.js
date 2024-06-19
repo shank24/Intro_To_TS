@@ -11,4 +11,7 @@ var Size;
 ;
 let mySize = Size.Medium;
 console.log(mySize);
+function calTax(income) {
+    return 0;
+}
 //# sourceMappingURL=index.js.map
