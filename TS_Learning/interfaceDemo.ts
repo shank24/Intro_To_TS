@@ -1,3 +1,5 @@
+export{}
+
 var credential = {
     "user" : "admin",
     "password" : "123"
