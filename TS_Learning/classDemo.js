@@ -1,5 +1,6 @@
 var Mobile = /** @class */ (function () {
     function Mobile(modelName, modelNumber) {
+        this.imei = "WEWE585";
         this.modelName = modelName,
             this.modelNumber = modelNumber;
     }
@@ -12,3 +13,4 @@ var mobileObject = new Mobile("Oppo", 125);
 console.log(mobileObject.modelName);
 console.log(mobileObject.modelNumber);
 mobileObject.makeCall();
+console.log(mobileObject.imei);

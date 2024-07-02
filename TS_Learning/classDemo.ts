@@ -1,4 +1,4 @@
-class Mobile {
+export class Mobile {
 
     modelName: string;
     modelNumber: number;
@@ -18,3 +18,4 @@ const mobileObject = new Mobile("Oppo", 125);
 console.log(mobileObject.modelName);
 console.log(mobileObject.modelNumber);
 mobileObject.makeCall();
+console.log(mobileObject.imei);
