@@ -2,6 +2,7 @@ class Mobile {
 
     modelName: string;
     modelNumber: number;
+    readonly imei: string = "WEWE585";
 
     constructor(modelName: string, modelNumber: number) {
         this.modelName = modelName,
